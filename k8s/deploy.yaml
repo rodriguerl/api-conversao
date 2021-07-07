@@ -16,3 +16,5 @@ spec:
         image: rodriguerl/api-convesao:v1
         ports:
         - containerPort: 8080
+
+
