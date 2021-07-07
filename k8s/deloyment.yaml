@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: meupod
+spec:
+  containers:
+  - name: site
+    image: rodriguerl/api-convesao:v1
+    ports:
+      - containerPort: 8080
